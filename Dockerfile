@@ -4,6 +4,6 @@ RUN apt-get update --fix-missing \
     && apt-get install -y build-essential \
     && pip install fasttext
 
-COPY fasttext-container.py /container/
+COPY fasttext-docker-test.py /container/
 
-CMD ["python", "/container/fasttext-container.py"]
+CMD ["python", "/container/fasttext-docker-test.py"]
