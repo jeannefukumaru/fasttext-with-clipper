@@ -1,2 +1,3 @@
+sentiment classification of amazon product reviews using fasttext 
+model deployment and management using clipper
 # fasttext-with-clipper
-Deploys pre-trained fasttext-classification model using RISE Lab's Clipper framework
